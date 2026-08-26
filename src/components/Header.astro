@@ -7,14 +7,14 @@ import Section from "./Section.astro";
   <header id="header">
     <div class="content">
       <h1>
-        <span>Hi, I am Astra.</span>
-        <span><span class="accent">Full-stack</span> Specialist!</span>
+        <span>Hi, I am MacB.</span>
+        <span><span class="accent">Front-End</span> Developer!</span>
       </h1>
       <p class="description">
-        I’m a Full-Stack Developer specializing in React.js, Next.js, Node.js,
-        and database management. I build scalable, high-performance web
-        applications, robust back-end architecture, and efficient API
-        integrations.
+        I’m a Front-End Developer specializing in tailwindcss, React.js, Vue,
+        Svelte, Astro, and UX/UI design. I build scalable, modern web
+        applications, and focus on creating intuitive user experiences. I’m
+        always eager to learn new technologies and improve my skills.
       </p>
       <div class="button-container">
         <ButtonLink href="/projects" text="View projects" variant="secondary" />
@@ -25,7 +25,7 @@ import Section from "./Section.astro";
         />
       </div>
     </div>
-    <img src="/images/me.png" />
+    <img src="/images/me.jpg" />
   </header>
 </Section>
 
@@ -46,6 +46,12 @@ import Section from "./Section.astro";
       .accent {
         color: var(--primary);
       }
+    }
+
+    img {
+      border-radius: 50%;
+      max-width: 240px;
+      height: auto;
     }
 
     .button-container {
